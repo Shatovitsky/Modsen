@@ -1,0 +1,122 @@
+@import "../../assets/styles/variables.scss";
+
+
+.auth-page{
+    .wrapper{
+        background-color: #14a8f266;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 447px;
+    }
+
+    &__input{
+        font-size: 18px;
+        padding-left: 20px;
+        margin-top: 16px;
+        display: block;
+        width: 520px;
+        height: 51px;
+        background-color: #fff;
+        background-image: none;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 6px;
+    }
+    &__title{
+        color: $text-w-color;
+        padding-bottom: 10px;
+        font-size: 36px;
+        font-family: $font-h1;
+    }
+
+    &__subtitle:hover{
+        text-decoration: underline;
+    }
+
+    &__subtitle{
+        cursor: pointer;
+        color: $text-w-color;
+        font-size: 16px;
+        font-family: $font-h4;
+        padding-bottom: 16px;
+    }
+    &__politics{
+        padding-top: 16px;
+        width: 540px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_checkbox{
+            align-self: flex-start;
+            width: 20px;
+            height: 20px;
+        }
+        &_description:hover{
+            text-decoration: underline;
+        }
+        &_description{
+            font-family: $font-h4;
+            cursor: pointer;
+            font-size: 16px;
+            color: $text-w-color;
+            padding-top: 5px;
+            align-self: flex-start;
+            margin-left: -60px;
+        }
+    }
+    &__button{
+        cursor: pointer;
+        font-family: $font-button;
+        font-size: 20px;
+        color: $text-w-color;
+        display: flex;
+        height: 52px;
+        width: 106px;
+        background: $button-blue-color;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//animation background
+.auth-page {
+    height: 100%;
+    max-height: 960px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position:
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size:
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+
+@keyframes para {
+    100% {
+      background-position:
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+

@@ -1,0 +1,100 @@
+@import "../../assets/styles/variables.scss";
+
+.contacts{
+    padding-bottom: 87px;
+    background-color: #F7F7F7;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__connection{
+        padding-top: 106px;
+        ::-webkit-input-placeholder { 
+            color: rgba(124, 124, 124, 0.8);
+        }
+        .text-input{
+            font-family: $font-h5;
+            line-height: 29px;
+            font-size: 24px;
+            padding-top: 14px;
+            text-indent: 18px;
+            height: 160px;
+            width: 470px;
+            border: 0;
+        }
+        input{
+            font-family: $font-h5;
+            line-height: 29px;
+            font-size: 24px;
+            text-indent: 18px;
+            width: 470px;
+            height: 56px;
+            border: 0;
+        }
+        li{
+            padding-bottom: 19px;
+        }
+        &_title{
+            padding-bottom: 25px;
+            font-family: $font-h4;
+            font-size: 48px;
+            line-height: 58px;
+        }
+        &_button{
+            cursor: pointer;
+            font-family: $font-button;
+            font-size: 24px;
+            color: $text-w-color;
+            display: flex;
+            height: 67px;
+            width: 177px;
+            background: $button-blue-color;
+            border-radius: 6px;
+            justify-content: center;
+            align-items: center; 
+            line-height: 33px;
+        }
+    }
+    &__information{
+        padding-top: 106px;
+        &_title{
+            font-family: $font-h4;
+            font-size: 48px;
+            line-height: 58px;
+        }
+        &_container{
+            padding-top: 85px;
+            display: flex;
+            img{
+                padding-right: 12px;
+            }
+        }
+        &_number{
+            font-family: $font-h1;
+            font-size: 54px;
+            line-height: 65px;
+        }
+        &_email{
+            font-size: 54px;
+            line-height: 65px;
+        }
+    }
+    &__information-social-networks{
+        padding-top: 90px;
+        display: flex;
+        .social-networks-item{
+            margin-right: 21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background: #BBBBBB;
+            border-radius: 50%;    
+        }
+    }
+}
+
+.decorative-images{
+    display: flex;
+}

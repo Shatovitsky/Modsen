@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.footer {
+  color: #FFFFFF;
+  background-color: #1F1F21;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 116px;
+  padding-bottom: 70px;
+}
+.footer__wrapper h1 {
+  font-family: Lato-Bold;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 3px;
+}
+.footer__wrapper p {
+  font-family: Lato-Medium;
+  font-size: 24px;
+  line-height: 29px;
+  color: #8F8E8E;
+}
+.footer__accurate-information_item {
+  padding-bottom: 40px;
+}
+.footer__twitter-feed_item {
+  display: flex;
+  padding-bottom: 15px;
+}
+.footer__twitter-feed_item h2 {
+  cursor: pointer;
+  padding-bottom: 16px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #FAFAFA;
+}
+.footer__twitter-feed_item img {
+  align-self: flex-start;
+  padding-right: 14px;
+}
+.footer__about_item:nth-child(2) {
+  padding-bottom: 30px;
+}
+.footer__about_item h1 {
+  padding-bottom: 4px;
+}
+.footer__about-social-networks {
+  display: flex;
+}
+.footer__about-social-networks .social-networks-item {
+  margin-top: 10px;
+  background: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=footer.component.css.map */

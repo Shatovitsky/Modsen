@@ -1,0 +1,68 @@
+@import "../../assets/styles/variables.scss";
+
+.footer{
+    color: $text-w-color;
+    background-color: $footer-background-color;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 116px;
+        padding-bottom: 70px;
+        h1{
+            font-family: $font-h1;
+            font-size: 36px;
+            line-height: 43px;
+            padding-bottom: 3px;
+        }
+        p{
+            font-family: $font-h3;
+            font-size: 24px;
+            line-height: 29px;
+            color: #8F8E8E;
+        }
+    }
+
+    &__accurate-information{
+        &_item{
+            padding-bottom: 40px; 
+        }
+    }
+    &__twitter-feed{
+        &_item{
+            display: flex;
+            padding-bottom: 15px; 
+            h2{
+                cursor: pointer;
+                padding-bottom: 16px;
+                font-family: $font-h5;
+                font-size: 24px;
+                color: #FAFAFA;
+            }
+            img{
+                align-self: flex-start;
+                padding-right: 14px;
+            }
+        }
+    }
+    &__about{
+        &_item:nth-child(2){
+                padding-bottom: 30px;
+        }
+        &_item{
+            h1{
+                padding-bottom: 4px;
+            }
+        }
+    }
+    &__about-social-networks{
+        .social-networks-item{
+            margin-top: 10px;
+            background: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 25px;
+        }
+        display: flex;
+    }
+}

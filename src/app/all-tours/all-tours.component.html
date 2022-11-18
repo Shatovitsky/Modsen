@@ -1,0 +1,58 @@
+
+<app-main-header></app-main-header>
+<div class="all-tours">
+    <div class="all-tours__wrapper">
+        <h1 id="#all-tours" class="all-tours__title">Туристические маршруты</h1>
+        <div class="all-tours__line"></div>
+        <div class="container" *ngFor="let tour of tours; index as i" >
+          <ul class="all-tours__list" >
+              <li class="all-tours-item" *ngIf="i % 2 == 0">
+                  <div class="all-tours-item__information">
+                      <h2 class="all-tours-item__information_number">
+                        {{i+1}}_ПРОГРАММА</h2>
+                      <h3 class="all-tours-item__information_name">
+                          {{tour.title}}</h3>
+                      <h3 class="all-tours-item__information_terms">
+                          {{tour.duration}}</h3>
+                      <div class="all-tours-item__information_line"></div>
+                      <h2 class="all-tours-item__information_path">
+                          {{tour.route}}</h2>
+                      <h2 class="all-tours-item__information_more"  (click)="toTour(tour)">
+                          Подробнее</h2>
+                  </div>
+                  <div class="all-tours-item__images">
+                      <img src="../../assets/images/bel-col/1.jpg" alt="">
+                      <img src="../../assets/images/bel-col/2.jpg" alt="">
+                      <img src="../../assets/images/bel-col/3.jpg" alt="">
+                      <img src="../../assets/images/bel-col/4.jpg" alt="">
+                  </div>
+              </li>
+              <li style="flex-direction:row-reverse; " class="all-tours-item" *ngIf="i % 2 != 0">
+                  <div class="all-tours-item__information">
+                      <h2 style="color: #058330;" class="all-tours-item__information_number">
+                        {{i+1}}_ПРОГРАММА</h2>
+                      <h3 class="all-tours-item__information_name">
+                        {{tour.title}}</h3>
+                      <h3 class="all-tours-item__information_terms">
+                        {{tour.duration}}</h3>
+                      <div style="background-color: #058330;" class="all-tours-item__information_line"></div>
+                      <h2 class="all-tours-item__information_path">
+                        {{tour.route}}</h2>
+                      <h2 class="all-tours-item__information_more" (click)="toTour(tour)">
+                          Подробнее</h2>
+                  </div>
+                  <div style="justify-content: flex-start;" class="all-tours-item__images" >
+                      <img src="../../assets/images/sokr-nac/1.jpg" alt="">
+                      <img src="../../assets/images/sokr-nac/2.jpg" alt="">
+                      <img src="../../assets/images/sokr-nac/3.jpg" alt="">
+                      <img src="../../assets/images/sokr-nac/4.jpg" alt="">
+                  </div>
+              </li>
+             <div class="decorative-line"></div>
+          </ul>
+    </div>
+    </div>
+</div>
+<div class="for-button">
+<app-reviews></app-reviews>
+</div>

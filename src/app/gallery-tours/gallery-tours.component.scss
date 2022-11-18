@@ -1,0 +1,44 @@
+@import "../../assets/styles/variables.scss";
+
+.gallery-tours{
+    color: $text-w-color;
+    height: auto;
+    width: auto;
+    background-image: url(../../assets/images/gallery-tours.png);
+    background-repeat: no-repeat;
+    margin-top: 38px;
+        &__title{
+            padding-top: 88px;
+            font-family: $font-h4;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__title-2{
+            padding-top: 37px;
+            font-family: $font-h1;
+            font-size: 36px;
+            line-height: 43px;
+        }
+        &__title-3{
+            padding-top: 36px;
+            font-family: $font-h3;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        
+        &__button{
+            margin-top: 47px;
+            bottom: -70px;
+            cursor: pointer;
+            font-family: $font-button;
+            font-size: 24px;
+            color: $text-w-color;
+            display: flex;
+            height: 62px;
+            width: 287px;
+            background: $button-blue-color;
+            border-radius: 6px;
+            justify-content: center;
+            align-items: center;                
+        }
+}

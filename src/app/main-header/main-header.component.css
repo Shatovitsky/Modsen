@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.main-header__navBar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-header__navBar a {
+  text-decoration: none;
+  color: #29293A;
+}
+.main-header__navBar img {
+  margin-left: -6px;
+}
+.main-header ul {
+  display: flex;
+  align-items: center;
+}
+.main-header ul li {
+  cursor: pointer;
+  padding-left: 64.5px;
+  font-size: 36px;
+  line-height: 42px;
+}
+.main-header ul li a:hover {
+  color: #356AD8;
+  transition: all 0.3s ease-out;
+}
+.main-header__authorization {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 127px;
+  top: 64px;
+}
+.main-header__authorization_log {
+  font-family: Lato-Regular;
+  padding-left: 9px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.main-header__authorization .line-animation:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  /* Высота линии */
+  background-color: #356AD8;
+  /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s;
+  /* Время эффекта */
+}
+.main-header__authorization .line-animation:hover::after {
+  content: "";
+  width: 64px;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  height: 2px;
+  /* Высота линии */
+  background-color: #356AD8;
+  /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s;
+  /* Время эффекта */
+}
+
+/*# sourceMappingURL=main-header.component.css.map */

@@ -1,0 +1,89 @@
+@import "../../assets/styles/variables.scss";
+
+.reviews{
+    color: $text-b-color;
+    &__title{
+        font-family: $font-h1;
+        font-size: 58px;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 132px;
+    }
+    &__main{
+        display: flex;
+        padding-top: 76px;
+        justify-content: space-between;
+        &_item:nth-child(3n) {
+            padding-right: 0px;
+          }
+        &_item{
+            position: relative;
+            font-family: $font-h4;
+            width: 330px;
+            height: 406px;
+            background-image: url(../../assets/images/reviews_background.png);
+            background-repeat: no-repeat;
+
+            
+                .reviews__main_item-title{
+                    padding-top: 50px;
+                    padding-left: 80px;
+                    color: $button-blue-color;
+                    font-size: 20px;
+                }
+                .reviews__main_item-subtitle{
+                    padding-left: 80px;
+                    padding-top: 2.5px;
+                    font-size: 18px;
+                    color: #6A6A6A;
+                }
+
+                .reviews__main_item-image-circle{
+                    position: absolute;
+                    left: -55px;
+                    top: 26px;
+                    width: 110px;
+                    height: 110px;
+                    border-radius: 50%;
+                    background-color: $main-background-color;
+                    border: 1px #7777 solid;
+                    .reviews__main_item-image{
+                        padding: 10px;
+                    }
+                }
+
+                .reviews__main_item-text{
+                    font-family: $font-light;
+                    font-weight: 600;
+                    line-height: 24px;
+                    padding-top: 46px;
+                    padding-left: 24px;
+                    padding-right: 33px;
+                    font-size: 16px;
+                    color: $text-w-color;
+                }
+
+
+
+
+        }
+    }
+    &__button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 63px;
+        bottom: -70px;
+        cursor: pointer;
+        font-family: $font-button;
+        font-size: 24px;
+        color: $text-w-color;
+        display: flex;
+        height: 62px;
+        width: 330px;
+        background: $button-blue-color;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center; 
+        line-height: 33px; 
+    }
+}

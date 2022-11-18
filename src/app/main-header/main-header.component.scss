@@ -1,0 +1,70 @@
+@import "../../assets/styles/variables.scss";
+
+.main-header{
+        &__navBar{
+                a{
+                    text-decoration: none;
+                    color: $text-b-color;
+                }
+                img{
+                    margin-left: -6px;
+                }
+                padding-top: 50px;
+                padding-bottom: 50px;
+                display: flex;
+                justify-content: space-between;
+            
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            li{ 
+                cursor: pointer;
+                padding-left: 64.5px;
+                font-size: 36px;
+                line-height: 42px;
+                a:hover{
+                    color: $button-blue-color;
+                    transition: all 0.3s ease-out;
+                }
+            }
+        }
+
+        &__authorization{
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            right: 127px;
+            top: 64px;
+            &_log{
+                font-family: $font-h2;
+                padding-left: 9px;
+                font-size: 24px;
+                line-height: 29px;
+            }
+            .line-animation:after{
+                content: "";
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: 4px;
+                width: 0;
+                height: 2px; /* Высота линии */
+                background-color: $button-blue-color; /* Цвет подчеркивания при исчезании линии*/
+                transition: width 0.5s; /* Время эффекта */
+            }
+            .line-animation:hover::after{
+                content: "";
+                width: 64px;
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: 4px;
+                height: 2px; /* Высота линии */
+                background-color: $button-blue-color; /* Цвет подчеркивания при появлении линии*/
+                transition: width 0.5s;  /* Время эффекта */
+            }
+        }
+    }

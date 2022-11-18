@@ -1,0 +1,217 @@
+@import "../../assets/styles/variables.scss";
+
+
+.detailed-tour__about-guide_item1_circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: $main-background-color;
+    border: 1px #7777 solid;
+    .detailed-tour__about-guide_item1_image{
+        padding: 10px;
+    }
+}
+
+
+.detailed-tour{
+  
+    &__like-button{
+        margin-top: 15px;
+        margin-bottom: 66px;
+        margin-left: 434px;
+        margin-right: auto;
+        cursor: pointer;
+        font-family: $font-button;
+        font-size: 24px;
+        color: $text-w-color;
+        display: flex;
+        height: 62px;
+        width: 305px;
+        background: $button-blue-color;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;                
+    }
+    &__other-tours{
+        margin-top: 50px;
+        margin-bottom: 62px;
+        margin-left: 740px;
+        margin-right: auto;
+        cursor: pointer;
+        font-family: $font-button;
+        font-size: 24px;
+        color: $text-w-color;
+        display: flex;
+        height: 62px;
+        width: 395px;
+        background: $button-blue-color;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;                
+    }
+    
+
+    &__review{
+        padding-bottom: 63px;
+        padding-top: 63px;
+        font-size: 58px;
+        font-family: $font-h1;
+        text-align: center;
+    }
+
+    &__title{
+        padding-top: 29px;
+        padding-bottom: 21px;
+        text-align: center;
+        background-color: #F7F7F7;
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__reviews-tour{
+        background-color: #F7F7F7;
+        &_item{
+            padding-top: 81px;
+            padding-left: 78px;
+            padding-right: 141px;
+            padding-bottom: 78px;
+            p{  
+                
+                padding-top: 35px;
+                font-size: 36px;
+            }
+            .container-with-person{
+                h1{
+                    font-size: 36px;
+                    font-family: $font-h1;
+                    margin-left: -120px;
+                }
+                h5{
+                    padding-left: 1181px;
+                }
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+            }
+        }
+    }
+
+    &__name{
+        font-family: $font-h1;
+        padding-top: 22px;
+        font-size: 42px;
+        line-height: 50px;
+        color: #000000;
+    }
+    
+    &__terms{
+        font-family: $font-h1;
+        padding-top: 17px;
+        font-size: 42px;
+        line-height: 50px;
+        color: #000000;
+        padding-bottom: 18px;
+    }
+
+    &__line{
+        width: 100px;
+        height: 16px;
+        background: #356AD8;
+    }
+
+    &__path{
+        font-family: $font-h3;
+        text-align: center;
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 23px;
+    }
+
+    &__list{
+        .decorative-line{
+            max-width: 1920px;
+            height: 3px;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .detailed-tour__list-tour{
+            padding-top: 61px;
+            padding-left: 84px;
+            padding-right: 90px;
+            padding-bottom: 66px;
+            display: flex;
+            flex-direction: row;
+
+            .detailed-tour__information{
+                padding-right: 60px;
+                &_day{
+                    font-family: $font-h1;
+                    font-weight: 800;
+                    font-size: 34px;
+                    line-height: 53px;
+                }
+                &_text{
+                    font-size: 26px;
+                    line-height: 33px;
+                    font-family: $font-h3;
+                }
+
+            }
+
+            .detailed-tour__images-other{
+                &_img:nth-child(1){
+                    padding-bottom: 15px;
+                }
+
+                &_text{
+                    padding-top: 22px;
+                    font-size: 26px;
+                    line-height: 33px;
+                    font-family: $font-h3;
+                }
+            }
+        }
+    }
+
+    &__about-guide{
+        padding-top: 47px;
+        display: flex;
+        align-items: center;
+        padding-left: 72px;
+        padding-right: 118px;
+        padding-bottom: 48px;
+        background: rgba(53, 106, 216, 0.2);
+
+        
+        .detailed-tour__about-guide_item1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h4{
+                font-family: $font-h4;
+                font-size: 28px;
+                }
+                h3{
+                    font-size: 18px;
+                    font-family: $font-h3;
+                }
+        }
+
+        .detailed-tour__about-guide_item2{
+            padding-left: 100px;
+            h4{ padding-bottom: 8px;
+                font-family: $font-h4;
+                font-size: 36px;
+                }
+                h3{
+                    font-size: 26px;
+                    font-family: $font-h3;
+                }
+        }
+       
+        
+    }
+}

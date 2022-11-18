@@ -1,0 +1,21 @@
+
+<div id="foo" class="auth-page">
+        <div class="wrapper">
+        <a href="#"><img class="auth-page__logo" src="../../assets/icons/logo.png" width="221" height="74"></a>
+      <h1 class="auth-page__title">
+        Вход в личный кабинет
+      </h1>
+      <p class="auth-page__subtitle" routerLink= "../Reg">
+        Регистрация
+      </p>
+    <input class="auth-page__input" #login type="text" placeholder="Ваш email">
+    <input class="auth-page__input" #password type="text" placeholder="Ваш пароль">
+      <div class="auth-page__politics">
+          <input class="auth-page__politics_checkbox" type="checkbox">
+          <div class="auth-page__politics_description">
+          Я согласен с политикой конфиденциальности
+          </div>
+        <input class="auth-page__button" type="button" (click)="authorization(login.value, password.value)" value="Войти">
+    </div>
+    </div>
+</div>

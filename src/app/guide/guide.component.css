@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.guide {
+  display: flex;
+  max-width: auto;
+  min-width: 1400px;
+  padding-bottom: 126px;
+  margin-top: 126px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 180px;
+  background-image: url(../../assets/images/guide_main.png);
+  background-repeat: no-repeat;
+}
+.guide__title {
+  font-size: 58px;
+  line-height: 70px;
+  font-family: Lato-Bold;
+  color: #FFFFFF;
+}
+.guide__button {
+  margin-top: 16px;
+  bottom: -70px;
+  cursor: pointer;
+  font-family: Nunito-SemiBold;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: flex;
+  height: 67px;
+  width: 319px;
+  background: #356AD8;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  line-height: 33px;
+}
+
+/*# sourceMappingURL=guide.component.css.map */

@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.advantages {
+  background-color: #F7F7F7;
+}
+.advantages__title {
+  padding-top: 100px;
+  font-size: 48px;
+  font-family: Lato-Bold;
+  text-align: center;
+  line-height: 70px;
+}
+.advantages__subtitle {
+  padding-top: 40px;
+  text-align: center;
+  font-family: Lato-Regular;
+  font-size: 24px;
+  line-height: 29px;
+}
+.advantages__list {
+  padding-top: 125px;
+  display: flex;
+  padding-bottom: 125px;
+}
+.advantages__list-item:nth-child(4n) {
+  padding-right: 0px;
+}
+.advantages__list-item {
+  padding-right: 30px;
+}
+.advantages__list-item_block {
+  display: flex;
+  justify-content: center;
+  background: #F7F7F7;
+  border: 1.5px solid #BBBBBB;
+  border-radius: 10px;
+  width: 270px;
+  height: 160px;
+}
+.advantages__list-item_block h3 {
+  font-family: Lato-Medium;
+  line-height: 33.6px;
+  font-size: 28px;
+  align-self: center;
+  text-align: center;
+  padding-top: 45px;
+}
+.advantages__list-item_circle {
+  display: flex;
+  position: absolute;
+  margin-top: -55px;
+  background: #F7F7F7;
+  border: 1.5px solid #BBBBBB;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  justify-content: center;
+}
+.advantages__list-item_circle img {
+  align-self: center;
+}
+.advantages__information {
+  height: 264px;
+  color: #FFFFFF;
+  background-image: url(../../assets/images/advantages.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+}
+.advantages__information_subtitle {
+  font-family: Lato-Medium;
+  font-size: 36px;
+  line-height: 43px;
+}
+.advantages__information_title {
+  font-size: 48px;
+  line-height: 58px;
+  font-family: Lato-SemiBold;
+}
+.advantages__information_clients {
+  display: flex;
+  justify-content: center;
+}
+.advantages__information_clients li {
+  padding-right: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__information_clients li:nth-child(3n) {
+  padding-right: 0px;
+}
+
+/*# sourceMappingURL=advantages.component.css.map */

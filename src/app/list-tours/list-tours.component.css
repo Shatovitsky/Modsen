@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.list-tours {
+  padding-top: 158px;
+}
+.list-tours__button {
+  margin-top: 20px;
+  margin-left: 434px;
+  margin-right: auto;
+  cursor: pointer;
+  font-family: Nunito-SemiBold;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: flex;
+  height: 62px;
+  width: 305px;
+  background: #356AD8;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.list-tours__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-tours__container_tour:nth-child(3) {
+  padding-right: 0px;
+}
+.list-tours__container_tour:nth-child(3) img {
+  align-self: flex-start !important;
+}
+.list-tours__container_tour:nth-child(6) {
+  padding-right: 0px;
+}
+.list-tours__container_tour {
+  padding-right: 30px;
+  padding-bottom: 62px;
+}
+.list-tours__container_tour h5[lang]:hover {
+  transform: scale(1.02);
+  text-decoration: underline;
+}
+.list-tours__container_tour h5[lang] {
+  font-size: 18px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: Roboto-Regular;
+  padding-top: 223px;
+  padding-bottom: 16px;
+  padding-right: 138px;
+  padding-left: 138px;
+}
+.list-tours__container_tour .tour-information-days-price {
+  padding-top: 18px;
+  justify-content: space-between;
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-tours__container_tour .tour-information-days-price h5:nth-child(2) {
+  color: #356AD8;
+}
+.list-tours__container_tour .tour-information-days-price h5 {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+}
+.list-tours__container_tour .tour-information-name-like {
+  padding-top: 14px;
+  justify-content: space-between;
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-tours__container_tour .tour-information-name-like h2 {
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  line-height: 24px;
+}
+.list-tours__container_tour .tour-information-name-like img {
+  cursor: pointer;
+  align-self: center;
+}
+.list-tours__container_tour .tour-information-name-like img:hover {
+  transform: scale(1.1);
+}
+.list-tours__container_tour .bel-kaley {
+  background-image: url(../../assets/images/tours/908815433d5a3627b61107d6bf3a53031.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+.list-tours__container_tour .sokr-nac {
+  background-image: url(../../assets/images/tours/a8eb4c46c47342f5ed4a74844e32374e1.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+.list-tours__container_tour .znakom-sineok {
+  background-image: url(../../assets/images/tours/5535e10bc12e378e876bc1cef528a7921.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+.list-tours__container_tour .kam-poyas {
+  background-image: url(../../assets/images/tours/ceff9b0140306b9c68049934be1604631.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+.list-tours__container_tour .kanik-ozer {
+  background-image: url(../../assets/images/tours//b346d6f8c6192bbedd2e9b27c557313c1.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+.list-tours__container_tour .nas-vek {
+  background-image: url(../../assets/images/tours/8047888cc6b6f29f79f09bed676445411.png);
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 370px;
+}
+
+/*# sourceMappingURL=list-tours.component.css.map */

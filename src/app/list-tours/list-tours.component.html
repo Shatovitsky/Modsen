@@ -1,0 +1,99 @@
+<section>
+    <div class="container">
+        <div id="tours" class="list-tours">
+            <ul style="padding-inline-start: 0px;" class="list-tours__container">
+                <li class="list-tours__container_tour" *ngFor="let tour of tours" >
+                    <div class="bel-kaley" (click)="goToTour(tour)">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>{{tour.duration}}</h5>
+                        <h5>From {{tour.cost}}</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>{{tour.title}}</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+                </li>
+
+               <!-- <li class="list-tours__container_tour">
+                    <div lang="" class="sokr-nac">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>5 Дней/4 Ночи</h5>
+                        <h5>From $230</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>«СОКРОВИЩА НАЦИИ»</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+
+
+                </li>
+                <li class="list-tours__container_tour">
+                    <div class="znakom-sineok">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>5 Дней/4 Ночи</h5>
+                        <h5>From $150</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>«ЗНАКОМСТВО С СИНЕОКИМ<BR>КРАЕМ»</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+
+
+                </li>
+                <li class="list-tours__container_tour">
+                    <div class="kam-poyas">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>5 Дней/4 Ночи</h5>
+                        <h5>From $200</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>«КАМЕННЫЙ ПОЯС БЕЛАРУСИ»</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+
+
+                </li>
+                <li class="list-tours__container_tour">
+                    <div class="kanik-ozer">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>5 Дней/4 Ночи</h5>
+                        <h5>From $250</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>«КАНИКУЛЫ В ОЗЕРНОМ КРАЕ»</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+
+
+                </li>
+                <li class="list-tours__container_tour">
+                    <div class="nas-vek">
+                        <h5 lang="">Подробнее</h5>
+                    </div>
+                    <div class="tour-information-days-price">
+                        <h5>5 Дней/4 Ночи</h5>
+                        <h5>From $300</h5>
+                    </div>
+                    <div class="tour-information-name-like">
+                        <h2>«НАСЛЕДИЕ ВЕКОВ»</h2>
+                        <img src="../../assets/icons/like.svg" width="20" height="18">
+                    </div>
+                </li>-->
+            </ul>
+            <a><div class="list-tours__button" routerLink= "All-Tours">
+                Посмотреть все туры
+            </div></a>
+        </div>
+
+    </div>
+</section>

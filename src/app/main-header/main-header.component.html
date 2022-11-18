@@ -1,0 +1,19 @@
+<div class="main-header">
+<div class="container">
+        <div class="main-header__navBar">
+                <a href="#"><img src="../../assets/icons/logo.png" width="221" height="74"></a>
+                <ul>
+                <li><a class="scrollto" routerLink="" href="#work">Работа</a></li>
+                <li><a class="scrollto" href="#tours">Туры</a></li>
+                <li><a class="scrollto" href="#about">О нас</a></li>
+                <li><a class="scrollto" href="#reviews">Отзывы</a></li>
+                <li><a class="scrollto" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        <div class="main-header__authorization">
+                <img src="../../assets/icons/icon-account.svg" alt="image-auth" width="45" height="45">
+                <span class="line-animation"><a style="color: black; " class="main-header__authorization_log" routerLink= "../Auth">{{activeUser === null ? 'Войти' : activeUser.login}}</a></span>
+          <span *ngIf="activeUser !== null" (click)="exit()">Выйти</span>
+        </div>
+</div>
+</div>

@@ -1,0 +1,36 @@
+@import "../../assets/styles/variables.scss";
+
+.guide{
+    display: flex;
+    max-width: auto;
+    min-width: 1400px;
+    padding-bottom: 126px;
+    margin-top: 126px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 180px;
+    background-image: url(../../assets/images/guide_main.png);
+    background-repeat: no-repeat;
+    &__title{
+        font-size: 58px;
+        line-height: 70px;
+        font-family: $font-h1;
+        color: $text-w-color;
+    }
+    &__button{
+        margin-top: 16px;
+        bottom: -70px;
+        cursor: pointer;
+        font-family: $font-button;
+        font-size: 24px;
+        color: $text-w-color;
+        display: flex;
+        height: 67px;
+        width: 319px;
+        background: $button-blue-color;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center; 
+        line-height: 33px; 
+    }
+}

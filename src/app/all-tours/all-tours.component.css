@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.all-tours {
+  /* ul li:nth-child(2n){
+      flex-direction: row-reverse;
+  } НЕ ПОНИМАЮ ПОЧЕМУ НЕ ВОРКАЕТ, В ТЕОРИИ КАЖДЫЙ ВТОРОЙ ДОЧЕРНИЙ МЕНЯЕТ СТИЛЬ */
+}
+.all-tours__wrapper {
+  background-color: #F7F7F7;
+}
+.all-tours__title {
+  padding-top: 58px;
+  padding-bottom: 17px;
+  font-family: Lato-Bold;
+  font-size: 58px;
+  line-height: 70px;
+  text-align: center;
+}
+.all-tours__line {
+  margin-bottom: 87px;
+  margin-left: 909px;
+  margin-right: auto;
+  width: 100px;
+  height: 16px;
+  background-color: #356AD8;
+}
+.all-tours .color-container {
+  background: rgba(53, 106, 216, 0.2);
+}
+.all-tours__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-tours__list .decorative-line {
+  width: 1920px;
+  height: 3px;
+  background: rgba(53, 106, 216, 0.2);
+  margin-bottom: 87px;
+}
+.all-tours__list .all-tours-item {
+  padding-bottom: 87px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.all-tours__list .all-tours-item__information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Lato-Medium;
+}
+.all-tours__list .all-tours-item__information_number {
+  font-size: 36px;
+  line-height: 43px;
+  color: #ED0000;
+}
+.all-tours__list .all-tours-item__information_name {
+  text-align: center;
+  padding-top: 22px;
+  font-size: 42px;
+  line-height: 50px;
+  color: #000000;
+}
+.all-tours__list .all-tours-item__information_terms {
+  padding-top: 17px;
+  font-size: 42px;
+  line-height: 50px;
+  color: #000000;
+  padding-bottom: 18px;
+}
+.all-tours__list .all-tours-item__information_line {
+  width: 100px;
+  height: 16px;
+  background-color: rgba(237, 0, 0, 0.75);
+}
+.all-tours__list .all-tours-item__information_path {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 23px;
+}
+.all-tours__list .all-tours-item__information_more:hover {
+  text-decoration: underline;
+}
+.all-tours__list .all-tours-item__information_more {
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 29px;
+  padding-top: 10px;
+  font-family: Roboto-Regular;
+  color: #ED0000;
+}
+.all-tours__list .all-tours-item__images {
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-tours__list .all-tours-item__images img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+.for-button {
+  margin-bottom: 126px;
+}
+
+/*# sourceMappingURL=all-tours.component.css.map */

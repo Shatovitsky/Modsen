@@ -1,0 +1,24 @@
+
+<div id="foo" class="reg-page">
+    <div class="wrapper">
+    <a href="#"><img class="reg-page__logo" src="../../assets/icons/logo.png" width="221" height="74"></a>
+  <h1 class="reg-page__title">
+    Регистрация личного кабинета
+  </h1>
+  <p class="reg-page__subtitle" routerLink= "../Auth">
+    Войти
+  </p>
+      <input class="reg-page__input" #login type="text" placeholder="Ваш login">
+      <input class="reg-page__input" #email type="text" placeholder="Ваш email">
+      <input class="reg-page__input" #password type="text" placeholder="Придумайте пароль">
+      <input class="reg-page__input" #check_pass type="text" placeholder="Повторите пароль">
+  <div class="reg-page__politics">
+      <input class="reg-page__politics_checkbox" type="checkbox">
+      <div class="reg-page__politics_description">
+      Я согласен с политикой конфиденциальности
+    </div>
+    <input class="reg-page__button" type="button" (click)="registration(login.value, email.value, password.value, check_pass.value)" value="Вперёд">
+</div>
+</div>
+
+</div>

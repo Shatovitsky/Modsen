@@ -1,0 +1,123 @@
+@import "../../assets/styles/variables.scss";
+
+.all-tours{
+    &__wrapper{
+        background-color: #F7F7F7;
+    }
+    &__title{
+        padding-top: 58px;
+        padding-bottom: 17px;
+        font-family: $font-h1;
+        font-size: 58px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    &__line{
+        margin-bottom: 87px;
+        margin-left: 909px;
+        margin-right: auto;
+        width: 100px;
+        height: 16px;
+        background-color: $button-blue-color;
+    }
+    .color-container{
+        background: rgba(53, 106, 216, 0.2);
+    }
+
+    /* ul li:nth-child(2n){
+        flex-direction: row-reverse;
+    } НЕ ПОНИМАЮ ПОЧЕМУ НЕ ВОРКАЕТ, В ТЕОРИИ КАЖДЫЙ ВТОРОЙ ДОЧЕРНИЙ МЕНЯЕТ СТИЛЬ */ 
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        
+        .decorative-line{
+            width: 1920px;
+            height: 3px;
+            background: rgba(53, 106, 216, 0.2);
+            margin-bottom: 87px;
+        }
+
+        .all-tours-item{
+            padding-bottom: 87px;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &__information{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: $font-h3;
+                    
+                &_number{
+                    font-size: 36px;
+                    line-height: 43px;
+                    color: #ED0000;
+                }
+
+                &_name{
+                    text-align: center;
+                    padding-top: 22px;
+                    font-size: 42px;
+                    line-height: 50px;
+                    color: #000000;
+                }
+
+                &_terms{
+                    padding-top: 17px;
+                    font-size: 42px;
+                    line-height: 50px;
+                    color: #000000;
+                    padding-bottom: 18px;
+                }
+
+                &_line{
+                    width: 100px;
+                    height: 16px;
+                    background-color:rgba(237, 0, 0, 0.75);;
+                }
+
+                &_path{
+                    text-align: center;
+                    font-size: 24px;
+                    line-height: 29px;
+                    padding-top: 23px;
+                }
+                &_more:hover{
+                    text-decoration: underline;
+                }
+                &_more{
+                    cursor: pointer;
+                    font-size: 18px;
+                    line-height: 29px;
+                    padding-top: 10px;
+                    font-family: $font-h5;
+                    color: #ED0000;
+                }
+            }
+
+            &__images{
+                justify-content: flex-end;
+                display: flex;
+                flex-wrap: wrap;
+                
+                img{
+                    padding-right: 8px;
+                    padding-bottom: 8px;
+                }
+            }
+        }
+
+    }
+
+    
+
+
+}
+
+.for-button{
+    margin-bottom: 126px;
+}

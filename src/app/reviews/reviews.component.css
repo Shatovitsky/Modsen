@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Lato-ExtraBold;
+  src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Lato-SemiBold;
+  src: url("../fonts/lato-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/lato-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+.reviews {
+  color: #29293A;
+}
+.reviews__title {
+  font-family: Lato-Bold;
+  font-size: 58px;
+  line-height: 70px;
+  text-align: center;
+  padding-top: 132px;
+}
+.reviews__main {
+  display: flex;
+  padding-top: 76px;
+  justify-content: space-between;
+}
+.reviews__main_item:nth-child(3n) {
+  padding-right: 0px;
+}
+.reviews__main_item {
+  position: relative;
+  font-family: Lato-SemiBold;
+  width: 330px;
+  height: 406px;
+  background-image: url(../../assets/images/reviews_background.png);
+  background-repeat: no-repeat;
+}
+.reviews__main_item .reviews__main_item-title {
+  padding-top: 50px;
+  padding-left: 80px;
+  color: #356AD8;
+  font-size: 20px;
+}
+.reviews__main_item .reviews__main_item-subtitle {
+  padding-left: 80px;
+  padding-top: 2.5px;
+  font-size: 18px;
+  color: #6A6A6A;
+}
+.reviews__main_item .reviews__main_item-image-circle {
+  position: absolute;
+  left: -55px;
+  top: 26px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px #7777 solid;
+}
+.reviews__main_item .reviews__main_item-image-circle .reviews__main_item-image {
+  padding: 10px;
+}
+.reviews__main_item .reviews__main_item-text {
+  font-family: Lato-Light;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 46px;
+  padding-left: 24px;
+  padding-right: 33px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.reviews__button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 63px;
+  bottom: -70px;
+  cursor: pointer;
+  font-family: Nunito-SemiBold;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: flex;
+  height: 62px;
+  width: 330px;
+  background: #356AD8;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  line-height: 33px;
+}
+
+/*# sourceMappingURL=reviews.component.css.map */

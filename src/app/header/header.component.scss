@@ -1,0 +1,192 @@
+@import "../../assets/styles/variables.scss";
+
+.header {
+  width: auto;
+  height: 100%;
+  background-image: url(../../assets/images/sad.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &__navBar {
+    a {
+      text-decoration: none;
+      color: $text-b-color;
+    }
+
+    img {
+      margin-left: -6px;
+    }
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      cursor: pointer;
+      padding-left: 64.5px;
+      font-size: 36px;
+      line-height: 42px;
+
+      a:hover {
+        color: $text-w-color;
+        transition: all 0.3s ease-out;
+      }
+    }
+  }
+
+
+  &__authorization {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 117px;
+    top: 64px;
+
+    &_log {
+      font-family: $font-h2;
+      padding-left: 9px;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .line-animation:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 4px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: #356AD8; /* Цвет подчеркивания при исчезании линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+    .line-animation:hover::after {
+      content: "";
+      width: 64px;
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 4px;
+      height: 2px; /* Высота линии */
+      background-color: #ffffff; /* Цвет подчеркивания при появлении линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+  }
+
+  &__title {
+    padding-top: 270px;
+    font-family: $font-logo;
+    font-size: 48px;
+    line-height: 52px;
+    color: $text-w-color;
+
+    &_1 {
+      padding-top: 12px;
+      padding-left: 20px;
+      width: 806px;
+      height: 68px;
+    }
+
+    &_2 {
+      width: 420px;
+      height: 56px;
+      padding-left: 20px;
+      padding-bottom: 12px;
+    }
+  }
+
+  &__filter-search {
+    display: flex;
+    padding-top: 60px;
+    font-size: 32px;
+    line-height: 38px;
+
+    &_date {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 10px;
+      align-items: center;
+      width: 386px;
+      height: 100px;
+      border-radius: 6px;
+      background: $text-w-color;
+    }
+
+    &_price {
+      margin-left: 27px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 10px;
+      align-items: center;
+      width: 490px;
+      height: 100px;
+      border-radius: 6px;
+      background: $text-w-color;
+    }
+
+    &_tours {
+      cursor: pointer;
+      color: $text-w-color;
+      margin-left: 30px;
+      display: flex;
+      height: 100px;
+      width: 240px;
+      background: $button-blue-color;
+      border-radius: 6px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__social-networks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 43px;
+    margin-top: 270px;
+
+    &_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding-left: 0px !important;
+      margin-bottom: 18px;
+      width: 60px;
+      height: 60px;
+      border: 2px solid #356ad8;
+      border-radius: 50%;
+    }
+
+    &_item:hover {
+      background: #356AD8;
+      transition: all 0.5s;
+    }
+
+    img {
+      transform: scale(1.1);
+      transition: all 0.5s;
+    }
+
+    .header-youtube-red {
+      padding-top: 10px;
+    }
+
+    .header-youtube-red:hover path {
+      fill: #EB5757;
+      transition: all 0.5s;
+    }
+  }
+
+}
